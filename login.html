@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- awesome fonts -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="navbar"></div>
+    <!-- header -->
+
+    <!-- form -->
+    <div class="container" id="container">
+        <!-- sign-up Form -->
+        <div class="sign-up-container">
+            <form action="" class="form" id="signupForm">
+                <h1>Create An Account</h1>
+
+                <!-- icons -->
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <!-- icons -->
+
+                <span>or use your email for registeation</span>
+
+                <!-- input fields -->
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <!-- input fields -->
+
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <!-- sign-up Form -->
+
+        <!-- sign-in Form -->
+        <div class="sign-in-container">
+            <form action="" class="form" id="loginForm">
+                <h1>Login</h1>
+
+                <!-- icons -->
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <!-- icons -->
+
+                <span>or use your Account</span>
+
+                <!-- input fields -->
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <!-- input fields -->
+                <a href="#">Forgot your Password</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <!-- sign-in Form -->
+
+        <!-- overlay -->
+         <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back</h1>
+                    <p>To keep connected with us please login with you personal info</p>
+                    <img src="./assets/welcome.jpg" alt="" style="height: 25rem; width: 30rem; padding-top: 5%;">
+                    <button class="btn" id="sigin">Sign in</button>
+                </div>
+
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello User!</h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <img src="./assets/p.jpg" alt="" style="height: 25rem; width: 30rem; padding-top: 5%;">
+                    <button class="btn" id="sigUp">Sign up</button>
+                </div>
+            </div>
+         </div>
+
+    </div>
+    <!-- form -->
+
+    <!-- Footer section -->
+    <div id="footer"></div>
+    <!-- Footer section -->
+
+</body>
+<script src="./scripts/login.js" type="module"></script>
+
+</html>

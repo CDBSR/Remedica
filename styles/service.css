@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    font-family: 'andika';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #eee;
+}
+
+/* about */
+main {
+    margin: 10%;
+}
+.about-section {
+    padding: 2rem 0;
+    background: #f9f9f9;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-section ul {
+    list-style: square;
+    margin: 1rem 0;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 2rem 0;
+    background: #eef5ff;
+}
+
+.contact-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .section {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eee;
+}
+.section::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    max-width: 1100px;
+    min-height: 550px;
+    z-index: 1000;
+}
+
+.container .about {
+    position: absolute;
+    padding: 70px 50px;
+    margin-left: 100px;
+    width: calc(100% - 150px);
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+.container .about-form{
+    position: absolute;
+    width: 350px;
+    height: calc(100% - 80%);
+    top: 40px;
+    margin-left: -170px;
+    background: linear-gradient(120deg, #00bfff 40%, #663399);
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+    border-radius: 5px;
+} */
