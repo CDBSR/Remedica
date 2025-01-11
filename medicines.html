@@ -14,34 +14,40 @@
     <!-- awesome fonts -->
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 
 
-
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css"> -->
+    <!-- <link rel="stylesheet" href="./styles/footer.css"> -->
     <link rel="stylesheet" href="./styles/medicines.css">
 
 </head>
 
 <body>
-    <!-- header -->
-    <div id="navbar"></div>
-    <!-- header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">MediStore</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for medicines..." id="search-input">
+            </div>
+            <button class="cart-btn" onclick="toggleCart()">Cart (<span id="cart-count">0</span>)</button>
+        </nav>
+    </header>
 
-    <div class="icon">
-        <div class="fa fa-serach" id="search-btn"></div>
-        <div class="fa fa-shopping-cart" id="cart-btn"></div>
-        <div class="fa fa-upload" id="up-btn"></div>
+    <main class="main">
+        <div class="products" id="products-container"></div>
+    </main>
+
+    <div id="cart-modal">
+        <div class="cart-content">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button class="checkout-btn" onclick="checkout()">Checkout</button>
+            <button class="add-to-cart" onclick="toggleCart()">Close</button>
+        </div>
     </div>
 
-    <form action="" class="search-form">
-        <input type="search" id="search-box" placeholder="type something...">
-
-    </form>
-
-    <!-- Footer section -->
-    <!-- <div id="footer"></div> -->
-    <!-- Footer section -->
 </body>
-<script src="./scripts/medicines.js" type="module"></script>
+<script src="./scripts/medicines.js"></script>
 
 </html>

@@ -9,7 +9,7 @@ function navbar (){
          <nav class="headbar">
             <a href="./index.html">Home</a>
             <a href="./login.html">Login</a>
-            <a href="#doctor">Doctors</a>
+            <a href="./doctor.html">Doctors</a>
             <a href="./medicine.html">Medicines</a>
             <a href="./service.html">Services</a>
             <a href="./service.html">Contact</a>
@@ -18,7 +18,7 @@ function navbar (){
         <!-- navbar -->
 
         <div class="search-bar">
-                <input type="text" placeholder="Search....." id="search-bar">
+                <input type="text" placeholder="Search....." id="search-input">
                 <button>Search</button>
         </div>
 
